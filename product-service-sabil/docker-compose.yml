@@ -10,4 +10,4 @@ services:
         MONGO_INITDB_ROOT_PASSWORD: password
         MONGO_INITDB_DATABASE: product-service-sabil
     volumes:
-      - ./data:/data/db
+      - /docker/mongodb/data:/data/db

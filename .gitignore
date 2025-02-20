@@ -33,7 +33,7 @@ build/
 .vscode/
 /docker/mongodb/data/
 /docker/mysql/data/
-/docker/
+docker/
 
 inventory-service/docker/mysql/data/mysql.sock
 order-service/mysql/mysql.sock
