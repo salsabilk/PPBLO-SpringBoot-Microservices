@@ -10,7 +10,7 @@ import org.springframework.security.config.Customizer;
 public class SecurityConfig {
 
     private final String[] freeResourceUrls = {"/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**",
-            "/swagger-resources/**", "/api-docs/**", "/aggregate/**"
+            "/swagger-resources/**", "/api-docs/**", "/aggregate/**", "/actuator/prometheus"
             };
 
     @Bean

@@ -42,3 +42,14 @@ order-service/mvnw.cmd
 product-service/mvnw.cmd
 
 data/
+
+api-gateway/volume-data/mysql_keycloak_data/mysql.sock
+**/mysql.sock
+**/volume-data/
+
+### Maven Wrapper ###
+notification-service/mvnw.cmd
+api-gateway/mvnw.cmd
+product-service-sabil/mvnw.cmd
+order-service/mvnw.cmd
+inventory-service/mvnw.cmd

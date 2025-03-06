@@ -31,3 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
+/docker/mongodb/data/
+/docker/mysql/data/
+/docker/
+
+inventory-service/docker/mysql/data/mysql.sock
+api-gateway/volume-data/mysql_keycloak_data/mysql.sock
+order-service/mysql/mysql.sock
+inventory-service/mvnw.cmd
+order-service/mvnw.cmd
+product-service/mvnw.cmd
+api-gateway/mvnw.cmd
+notification-service/mvnw.cmd
+
+
+data/
